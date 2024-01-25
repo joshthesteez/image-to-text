@@ -9,6 +9,8 @@ What this script accomplishes is a simple commnad-line workaround to this proble
 How it works:
 
   -- use windows snipping tool to select all the text from the image you want to extract
+  
   -- call extract.py from windows command line (save extract.py in the default cmd directory for maximum effeciency)
+  
   -- congratulations! the text you want to use is now placed inside your clipboard, ready to be pasted anywhere you need it!
   

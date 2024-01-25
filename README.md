@@ -1,2 +1,14 @@
 # image-to-text
-Using PIL, Tesseract-OCR, and Pyperclip, you can now extract text from your most recent screenshot, and automatically have the results placed in clipboard, to streamline the process of extracting the raw text from images
+
+Recently I have found it very useful (and effecient) to just use Windows Snipping tool and some sort of Image - to - Text website to copy large sections of text, either from images/videos/documents where it is impossible or impractical to select with the cursor. 
+
+However, these websites are loaded with ads and potential malware and are ususally limited in their ability (outside of having support for multiple images)
+
+What this script accomplishes is a simple commnad-line workaround to this problem. 
+
+How it works:
+
+  -- use windows snipping tool to select all the text from the image you want to extract
+  -- call extract.py from windows command line (save extract.py in the default cmd directory for maximum effeciency)
+  -- congratulations! the text you want to use is now placed inside your clipboard, ready to be pasted anywhere you need it!
+  
